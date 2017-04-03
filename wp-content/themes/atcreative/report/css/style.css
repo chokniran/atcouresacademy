@@ -1,0 +1,75 @@
+
+.tab-menu-title li {
+    background: #555 none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    padding: 8px 10px;
+}
+.tab-menu-title li a {
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+}
+.tab-menu-title li:hover {
+    background: #0073aa none repeat scroll 0 0;
+}
+.navbar-nav > li {
+    margin: 0;
+}
+#main_nav .collapse.navbar-collapse {
+    padding: 0;
+}
+p.sec {
+    background: #ffe773;
+    padding: 2px;
+}
+#main_nav .container-fluid {
+    padding: 0;
+}
+#main_nav .collapse {
+  display: block;
+  margin: 0;
+  padding: 15px !important;
+}
+#wpcontent {
+    padding-right: 15px;
+}
+
+.total {
+  float: right;
+  margin-top: 15px;
+}
+.total li {
+  display: inline;
+  margin-left: 10px;
+}
+.total span {
+  font-size: 18px;
+}
+.row-search {
+    float: right;
+    margin-top: 15px;
+}
+nav#main_nav {
+    float: left;
+    width: 100%;
+}
+#wpbody_main > div > h2 {
+    float: left;
+}
+.row-search a {
+    border-radius: 0;
+    padding: 3px 12px;
+    position: relative;
+    top: -1px;
+}
+.display_date {
+    float: right;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.display_date span {
+    font-size: 15px;
+    padding: 6px 8px;
+}
+

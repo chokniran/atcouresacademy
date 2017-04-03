@@ -1,0 +1,63 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: LearnPress Offline Payment\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Sun Mar 20 2016 16:37:54 GMT+0700 (SE Asia Standard Time)\n"
+"PO-Revision-Date: Sun Mar 20 2016 16:39:15 GMT+0700 (SE Asia Standard Time)\n"
+"Last-Translator: โชคนิรันดร์ จงสมจิตร <chokniran@atcreative.co.th>\n"
+"Language-Team: \n"
+"Language: English\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ../../plugins/learnpress-offline-payment-master\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: en_US\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#. Name of the plugin
+msgid "LearnPress Offline Payment"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://thimpress.com/learnpress"
+msgstr ""
+
+#. Description of the plugin
+msgid "Pay with check"
+msgstr ""
+
+#. Author of the plugin
+msgid "thimpress"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://thimpress.com"
+msgstr ""
+
+#: ../../plugins/learnpress-offline-payment-master/class-lpr-payment-gateway-
+#: offline-payment.php:52
+msgid "Process transactions offline via check or cash"
+msgstr "คุณสามารถชำระเงินผ่านธนาคารได้โดยคลิกที่ปุ่ม ด้านล่างนี้"
+
+#: ../../plugins/learnpress-offline-payment-master/class-lpr-payment-gateway-
+#: offline-payment.php:94
+msgid "Enable"
+msgstr ""
+
+#: ../../plugins/learnpress-offline-payment-master/class-lpr-payment-gateway-
+#: offline-payment.php:100
+msgid "Text"
+msgstr ""
+
+#: ../../plugins/learnpress-offline-payment-master/class-lpr-payment-gateway-
+#: offline-payment.php:140
+msgid "Thank you! Your order has been completed!"
+msgstr ""

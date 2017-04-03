@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 2C2P Payment Gateway\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-09-23 10:44+0000\n"
+"PO-Revision-Date: 2016-09-23 10:44+0000\n"
+"Last-Translator: เอที ครีเอทีฟ ทดสอบ <chokniran@atcreative.co.th>\n"
+"Language-Team: \n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#. Name of the plugin
+msgid "2C2P Payment Gateway"
+msgstr ""
+
+#. Description of the plugin
+msgid "Transforming millions of everyday payments with one time card facility"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "http://www.2c2p.com/"
+msgstr ""
+
+#. Author of the plugin
+msgid "2C2P"
+msgstr ""

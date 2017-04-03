@@ -1,0 +1,635 @@
+
+.main_container {
+    padding: 20px 20px 20px 0;
+}
+.payment-form_ input {
+    margin-bottom: 15px;
+}
+.payment-form_ select {
+    margin-bottom: 10px;
+}
+.panal-payment h1 {
+    background: #00ae4d none repeat scroll 0 0;
+    color: #fff;
+    font-size: 22px;
+    letter-spacing: 0;
+    margin-top: 0;
+    padding: 16px;
+}
+.panal-payment {
+    background: #f5f5f5 none repeat scroll 0 0;
+    border-radius: 7px;
+    max-width: 480px;
+    overflow: hidden;
+}
+.payment-form_ {
+    padding: 15px;
+}
+#floatingCirclesG {
+  float: right;
+  height: 64px;
+  position: relative;
+  right: 0;
+  transform: scale(0.6);
+  width: 64px;
+}
+
+body {
+    color: #333;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1.7em;
+}
+
+body#thim-body{
+ font-family: Sukhumvit Set;
+}
+.main_container .btn.btn-danger {
+    width: 45px;
+}
+
+.f_circleG{
+    position:absolute;
+    background-color:rgb(255,255,255);
+    height:11px;
+    width:11px;
+    border-radius:6px;
+        -o-border-radius:6px;
+        -ms-border-radius:6px;
+        -webkit-border-radius:6px;
+        -moz-border-radius:6px;
+    animation-name:f_fadeG;
+        -o-animation-name:f_fadeG;
+        -ms-animation-name:f_fadeG;
+        -webkit-animation-name:f_fadeG;
+        -moz-animation-name:f_fadeG;
+    animation-duration:0.622s;
+        -o-animation-duration:0.622s;
+        -ms-animation-duration:0.622s;
+        -webkit-animation-duration:0.622s;
+        -moz-animation-duration:0.622s;
+    animation-iteration-count:infinite;
+        -o-animation-iteration-count:infinite;
+        -ms-animation-iteration-count:infinite;
+        -webkit-animation-iteration-count:infinite;
+        -moz-animation-iteration-count:infinite;
+    animation-direction:normal;
+        -o-animation-direction:normal;
+        -ms-animation-direction:normal;
+        -webkit-animation-direction:normal;
+        -moz-animation-direction:normal;
+}
+
+#frotateG_01{
+    left:0;
+    top:26px;
+    animation-delay:0.2295s;
+        -o-animation-delay:0.2295s;
+        -ms-animation-delay:0.2295s;
+        -webkit-animation-delay:0.2295s;
+        -moz-animation-delay:0.2295s;
+}
+
+#frotateG_02{
+    left:7px;
+    top:7px;
+    animation-delay:0.316s;
+        -o-animation-delay:0.316s;
+        -ms-animation-delay:0.316s;
+        -webkit-animation-delay:0.316s;
+        -moz-animation-delay:0.316s;
+}
+
+#frotateG_03{
+    left:26px;
+    top:0;
+    animation-delay:0.3925s;
+        -o-animation-delay:0.3925s;
+        -ms-animation-delay:0.3925s;
+        -webkit-animation-delay:0.3925s;
+        -moz-animation-delay:0.3925s;
+}
+
+#frotateG_04{
+    right:7px;
+    top:7px;
+    animation-delay:0.469s;
+        -o-animation-delay:0.469s;
+        -ms-animation-delay:0.469s;
+        -webkit-animation-delay:0.469s;
+        -moz-animation-delay:0.469s;
+}
+
+#frotateG_05{
+    right:0;
+    top:26px;
+    animation-delay:0.5455s;
+        -o-animation-delay:0.5455s;
+        -ms-animation-delay:0.5455s;
+        -webkit-animation-delay:0.5455s;
+        -moz-animation-delay:0.5455s;
+}
+
+#frotateG_06{
+    right:7px;
+    bottom:7px;
+    animation-delay:0.622s;
+        -o-animation-delay:0.622s;
+        -ms-animation-delay:0.622s;
+        -webkit-animation-delay:0.622s;
+        -moz-animation-delay:0.622s;
+}
+
+#frotateG_07{
+    left:26px;
+    bottom:0;
+    animation-delay:0.6985s;
+        -o-animation-delay:0.6985s;
+        -ms-animation-delay:0.6985s;
+        -webkit-animation-delay:0.6985s;
+        -moz-animation-delay:0.6985s;
+}
+
+#frotateG_08{
+    left:7px;
+    bottom:7px;
+    animation-delay:0.775s;
+        -o-animation-delay:0.775s;
+        -ms-animation-delay:0.775s;
+        -webkit-animation-delay:0.775s;
+        -moz-animation-delay:0.775s;
+}
+
+
+
+@keyframes f_fadeG{
+    0%{
+        background-color:rgb(0,0,0);
+    }
+
+    100%{
+        background-color:rgb(255,255,255);
+    }
+}
+
+@-o-keyframes f_fadeG{
+    0%{
+        background-color:rgb(0,0,0);
+    }
+
+    100%{
+        background-color:rgb(255,255,255);
+    }
+}
+
+@-ms-keyframes f_fadeG{
+    0%{
+        background-color:rgb(0,0,0);
+    }
+
+    100%{
+        background-color:rgb(255,255,255);
+    }
+}
+
+@-webkit-keyframes f_fadeG{
+    0%{
+        background-color:rgb(0,0,0);
+    }
+
+    100%{
+        background-color:rgb(255,255,255);
+    }
+}
+
+@-moz-keyframes f_fadeG{
+    0%{
+        background-color:rgb(0,0,0);
+    }
+
+    100%{
+        background-color:rgb(255,255,255);
+    }
+}
+
+.btn.btn-success.payment-submit {
+    margin-bottom: 15px;
+}
+.panel.panel-info a.btn {
+    width: 100px;
+}
+#wpbody .main_container td {
+  vertical-align: middle;
+}
+#date.form-control {
+    background: #fff none repeat scroll 0 0;
+    cursor: pointer;
+}
+.payment-form_ > form input {
+    border-radius: 2px;
+    padding: 5px;
+    width: 100%;
+}
+#bank.form-pay {
+    height: 40px;
+    width: 100%;
+}
+
+span.form-pay {
+    color: #555;
+    font-family: sukhumvit_settext;
+}
+.form-pay {
+    font-family: sukhumvit_settext;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+#fm-payment > input#file {
+    border: 0 none;
+    height: auto;
+    width: auto;
+}
+
+
+#fm-payment textarea#note {
+  border: 1px solid #efefef;
+  border-radius: 2px;
+  height: 70px !important;
+  padding: 5px;
+  width: 100%;
+}
+
+.dtpicker-compOutline.dtpicker-comp5 input {
+    border: 1px solid;
+}
+.dtpicker-components a.dtpicker-compButton {
+    background: #008b3e none repeat scroll 0 0;
+    color: #fff;
+}
+
+.dtpicker-components a.dtpicker-compButton:hover {
+    background: #333 none repeat scroll 0 0;
+    border: 0 none !important;
+    color: #fff;
+}
+#floatingCirclesG{
+    position:relative;
+    width:16px;
+    height:16px;
+    margin:auto;
+    transform:scale(0.6);
+        -o-transform:scale(0.6);
+        -ms-transform:scale(0.6);
+        -webkit-transform:scale(0.6);
+        -moz-transform:scale(0.6);
+}
+
+.f_circleG{
+    position:absolute;
+    background-color:rgb(255,255,255);
+    height:3px;
+    width:3px;
+    border-radius:1px;
+        -o-border-radius:1px;
+        -ms-border-radius:1px;
+        -webkit-border-radius:1px;
+        -moz-border-radius:1px;
+    animation-name:f_fadeG;
+        -o-animation-name:f_fadeG;
+        -ms-animation-name:f_fadeG;
+        -webkit-animation-name:f_fadeG;
+        -moz-animation-name:f_fadeG;
+    animation-duration:1.2s;
+        -o-animation-duration:1.2s;
+        -ms-animation-duration:1.2s;
+        -webkit-animation-duration:1.2s;
+        -moz-animation-duration:1.2s;
+    animation-iteration-count:infinite;
+        -o-animation-iteration-count:infinite;
+        -ms-animation-iteration-count:infinite;
+        -webkit-animation-iteration-count:infinite;
+        -moz-animation-iteration-count:infinite;
+    animation-direction:normal;
+        -o-animation-direction:normal;
+        -ms-animation-direction:normal;
+        -webkit-animation-direction:normal;
+        -moz-animation-direction:normal;
+}
+
+#frotateG_01{
+    left:0;
+    top:6px;
+    animation-delay:0.45s;
+        -o-animation-delay:0.45s;
+        -ms-animation-delay:0.45s;
+        -webkit-animation-delay:0.45s;
+        -moz-animation-delay:0.45s;
+}
+
+#frotateG_02{
+    left:2px;
+    top:2px;
+    animation-delay:0.6s;
+        -o-animation-delay:0.6s;
+        -ms-animation-delay:0.6s;
+        -webkit-animation-delay:0.6s;
+        -moz-animation-delay:0.6s;
+}
+
+#frotateG_03{
+    left:6px;
+    top:0;
+    animation-delay:0.75s;
+        -o-animation-delay:0.75s;
+        -ms-animation-delay:0.75s;
+        -webkit-animation-delay:0.75s;
+        -moz-animation-delay:0.75s;
+}
+
+#frotateG_04{
+    right:2px;
+    top:2px;
+    animation-delay:0.9s;
+        -o-animation-delay:0.9s;
+        -ms-animation-delay:0.9s;
+        -webkit-animation-delay:0.9s;
+        -moz-animation-delay:0.9s;
+}
+
+#frotateG_05{
+    right:0;
+    top:6px;
+    animation-delay:1.05s;
+        -o-animation-delay:1.05s;
+        -ms-animation-delay:1.05s;
+        -webkit-animation-delay:1.05s;
+        -moz-animation-delay:1.05s;
+}
+
+#frotateG_06{
+    right:2px;
+    bottom:2px;
+    animation-delay:1.2s;
+        -o-animation-delay:1.2s;
+        -ms-animation-delay:1.2s;
+        -webkit-animation-delay:1.2s;
+        -moz-animation-delay:1.2s;
+}
+
+#frotateG_07{
+    left:6px;
+    bottom:0;
+    animation-delay:1.35s;
+        -o-animation-delay:1.35s;
+        -ms-animation-delay:1.35s;
+        -webkit-animation-delay:1.35s;
+        -moz-animation-delay:1.35s;
+}
+
+#frotateG_08{
+    left:2px;
+    bottom:2px;
+    animation-delay:1.5s;
+        -o-animation-delay:1.5s;
+        -ms-animation-delay:1.5s;
+        -webkit-animation-delay:1.5s;
+        -moz-animation-delay:1.5s;
+}
+
+
+
+@keyframes f_fadeG{
+    0%{
+        background-color:rgb(0,0,0);
+    }
+
+    100%{
+        background-color:rgb(255,255,255);
+    }
+}
+
+@-o-keyframes f_fadeG{
+    0%{
+        background-color:rgb(0,0,0);
+    }
+
+    100%{
+        background-color:rgb(255,255,255);
+    }
+}
+
+@-ms-keyframes f_fadeG{
+    0%{
+        background-color:rgb(0,0,0);
+    }
+
+    100%{
+        background-color:rgb(255,255,255);
+    }
+}
+
+@-webkit-keyframes f_fadeG{
+    0%{
+        background-color:rgb(0,0,0);
+    }
+
+    100%{
+        background-color:rgb(255,255,255);
+    }
+}
+
+@-moz-keyframes f_fadeG{
+    0%{
+        background-color:rgb(0,0,0);
+    }
+
+    100%{
+        background-color:rgb(255,255,255);
+    }
+}
+
+.main_container a.btn {
+    height: 35px;
+    width: 135px;
+}
+
+span.form-pay {
+    color: #555;
+    font-family: sukhumvit_settext;
+}
+.form-pay {
+    font-family: sukhumvit_settext;
+    font-size: 16px;
+    font-weight: normal;
+}
+.btn.btn-success.payment-submit.ui-link {
+    color: #fff;
+    font-family: sukhumvit_settext;
+    font-size: 17px;
+}
+
+.payment-form_ > form input, select {
+    border: 1px solid #efefef;
+    height: 40px;
+}
+.payment-form_ > form input:focus {
+    border-color: #00ae4d;
+}
+textarea#note:focus {
+    border-color: #00ae4d;
+}
+#fm-payment > label {
+    font-family: sukhumvit_settext;
+    font-size: 15px;
+    font-weight: normal;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+#fm-payment > input#file {
+    padding-left: 0;
+}
+#circleG {
+  float: right;
+  margin: auto;
+  width: 60px;
+}
+
+.circleG{
+    background-color:rgb(255,255,255);
+    float:left;
+    height:13px;
+    margin-left:7px;
+    width:13px;
+    animation-name:bounce_circleG;
+        -o-animation-name:bounce_circleG;
+        -ms-animation-name:bounce_circleG;
+        -webkit-animation-name:bounce_circleG;
+        -moz-animation-name:bounce_circleG;
+    animation-duration:2.24s;
+        -o-animation-duration:2.24s;
+        -ms-animation-duration:2.24s;
+        -webkit-animation-duration:2.24s;
+        -moz-animation-duration:2.24s;
+    animation-iteration-count:infinite;
+        -o-animation-iteration-count:infinite;
+        -ms-animation-iteration-count:infinite;
+        -webkit-animation-iteration-count:infinite;
+        -moz-animation-iteration-count:infinite;
+    animation-direction:normal;
+        -o-animation-direction:normal;
+        -ms-animation-direction:normal;
+        -webkit-animation-direction:normal;
+        -moz-animation-direction:normal;
+    border-radius:8px;
+        -o-border-radius:8px;
+        -ms-border-radius:8px;
+        -webkit-border-radius:8px;
+        -moz-border-radius:8px;
+}
+
+#circleG_1{
+    animation-delay:0.45s;
+        -o-animation-delay:0.45s;
+        -ms-animation-delay:0.45s;
+        -webkit-animation-delay:0.45s;
+        -moz-animation-delay:0.45s;
+}
+
+#circleG_2{
+    animation-delay:1.05s;
+        -o-animation-delay:1.05s;
+        -ms-animation-delay:1.05s;
+        -webkit-animation-delay:1.05s;
+        -moz-animation-delay:1.05s;
+}
+
+#circleG_3{
+    animation-delay:1.35s;
+        -o-animation-delay:1.35s;
+        -ms-animation-delay:1.35s;
+        -webkit-animation-delay:1.35s;
+        -moz-animation-delay:1.35s;
+}
+
+
+
+@keyframes bounce_circleG{
+    0%{}
+
+    50%{
+        background-color:rgb(0,0,0);
+    }
+
+    100%{}
+}
+
+@-o-keyframes bounce_circleG{
+    0%{}
+
+    50%{
+        background-color:rgb(0,0,0);
+    }
+
+    100%{}
+}
+
+@-ms-keyframes bounce_circleG{
+    0%{}
+
+    50%{
+        background-color:rgb(0,0,0);
+    }
+
+    100%{}
+}
+
+@-webkit-keyframes bounce_circleG{
+    0%{}
+
+    50%{
+        background-color:rgb(0,0,0);
+    }
+
+    100%{}
+}
+
+@-moz-keyframes bounce_circleG{
+    0%{}
+
+    50%{
+        background-color:rgb(0,0,0);
+    }
+
+    100%{}
+}
+
+.main_container label {
+    font-size: 17px;
+}
+span.label {
+    display: inline-block;
+    font-size: 15px;
+    padding: 8px;
+}
+.row-search {
+    text-align: right;
+}
+.btn.btn-primary.view_report {
+    width: 60px;
+}
+.row-search input {
+    height: 35px;
+}
+.dtp-buttons button {
+    margin: 3px;
+    background: #555;
+    color: #fff;
+}
+.dtp-buttons button:hover {
+    background: #00ae4d none repeat scroll 0 0;
+    color: #fff;
+}
+.width-navigation.table-cell.table-right li a:hover {
+    background: transparent none repeat scroll 0 0;
+}

@@ -1,0 +1,626 @@
+@font-face {
+  font-family: 'Sukhumvit Set';
+  src: local("☺︎"), url('font/SukhumvitSet-Thin.eot?#iefix') format('embedded-opentype'),
+  url('font/SukhumvitSet-Thin.woff') format('woff'),
+  url('font/SukhumvitSet-Thin.ttf')  format('truetype'),
+  url('font/SukhumvitSet-Thin.svg#SukhumvitSet-Thin') format('svg');
+  font-style: normal;
+  font-weight: 200;
+}
+@font-face {
+    font-family: "Sukhumvit Set 200";
+    src: url("font/SukhumvitSet-Thin.eot");
+}
+
+@font-face {
+  font-family: 'Sukhumvit Set';
+  src: local("☺︎"), url('font/sukhumvitset-light-webfont.eot?#iefix') format('embedded-opentype'),
+  url('font/sukhumvitset-light-webfont.woff') format('woff'),
+  url('font/sukhumvitset-light-webfont.woff2') format('woff2'),
+  url('font/sukhumvitset-light-webfont.ttf')  format('truetype'),
+  url('font/sukhumvitset-light-webfont.svg#sukhumvit_setlight') format('svg');
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+    font-family: "Sukhumvit Set 300";
+    src: url("font/sukhumvitset-light-webfont.eot");
+}
+
+@font-face {
+  font-family: "Sukhumvit Set";
+  src: local("☺︎"),url('SukhumvitSet-Text.eot?#iefix') format('embedded-opentype'),
+  url('font/SukhumvitSet-Text.woff') format('woff'),
+  url('font/SukhumvitSet-Text.ttf')  format('truetype'),
+  url('font/SukhumvitSet-Text.svg#SukhumvitSet-Text') format('svg');
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Sukhumvit Set 400";
+    src: url("font/SukhumvitSet-Text.eot");
+}
+
+@font-face {
+    font-family: "Sukhumvit Set";
+    font-style: normal;
+    font-weight: 500;
+    src: local("☺︎"), url("font/SukhumvitSet-Medium.woff") format("woff"),
+    url("font/SukhumvitSet-Medium.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Sukhumvit Set 500";
+    src: url("font/SukhumvitSet-Medium.eot");
+}
+
+@font-face {
+    font-family: "Sukhumvit Set";
+    font-style: normal;
+    font-weight: 600;
+    src: local("☺︎"), url("font/SukhumvitSet-SemiBold.woff") format("woff"),
+    url("font/SukhumvitSet-SemiBold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Sukhumvit Set 600";
+    src: url("font/SukhumvitSet-SemiBold.eot");
+}
+
+@font-face {
+    font-family: "Sukhumvit Set";
+    font-style: normal;
+    font-weight: 700;
+    src: local("☺︎"), url("font/SukhumvitSet-Bold.woff") format("woff"),
+    url("font/SukhumvitSet-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Sukhumvit Set 700";
+    src: url("font/SukhumvitSet-Bold.eot");
+}
+
+@font-face {
+    font-family: "Sukhumvit Set";
+    font-style: normal;
+    font-weight: 800;
+    src: local("☺︎"), url("font/SukhumvitSet-Bold.woff") format("woff"),
+    url("font/SukhumvitSet-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Sukhumvit Set 800";
+    src: url("font/SukhumvitSet-Bold.eot");
+}
+
+@font-face {
+    font-family: "Sukhumvit Set";
+    font-style: normal;
+    font-weight: 900;
+    src: local("☺︎"), url("font/SukhumvitSet-Bold.woff") format("woff"),
+    url("font/SukhumvitSet-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Sukhumvit Set 900";
+    src: url("font/SukhumvitSet-Bold.eot");
+}
+
+@font-face {
+    font-family: 'sukhumvit_setthin';
+    src: url('font/sukhumvitset-thin-webfont.eot');
+    src: url('font/sukhumvitset-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/sukhumvitset-thin-webfont.woff2') format('woff2'),
+         url('font/sukhumvitset-thin-webfont.woff') format('woff'),
+         url('font/sukhumvitset-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'sukhumvit_settext';
+    src: url('font/sukhumvitset-text-webfont.eot');
+    src: url('font/sukhumvitset-text-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/sukhumvitset-text-webfont.woff2') format('woff2'),
+         url('font/sukhumvitset-text-webfont.woff') format('woff'),
+         url('font/sukhumvitset-text-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'sukhumvit_setlight';
+    src: url('font/sukhumvitset-light-webfont.eot');
+    src: url('font/sukhumvitset-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/sukhumvitset-light-webfont.woff') format('woff'),
+         url('font/sukhumvitset-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'sukhumvit_setsemi_bold';
+    src: url('font/sukhumvitset-semibold-webfont.eot');
+    src: url('font/sukhumvitset-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/sukhumvitset-semibold-webfont.woff2') format('woff2'),
+         url('font/sukhumvitset-semibold-webfont.woff') format('woff'),
+         url('font/sukhumvitset-semibold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'sukhumvit_setbold';
+    src: url('font/sukhumvitset-bold-webfont.eot');
+    src: url('font/sukhumvitset-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/sukhumvitset-bold-webfont.woff2') format('woff2'),
+         url('font/sukhumvitset-bold-webfont.woff') format('woff'),
+         url('font/sukhumvitset-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'sukhumvit_setmedium';
+    src: url('font/sukhumvitset-medium-webfont.eot');
+    src: url('font/sukhumvitset-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/sukhumvitset-medium-webfont.woff2') format('woff2'),
+         url('font/sukhumvitset-medium-webfont.woff') format('woff'),
+         url('font/sukhumvitset-medium-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+    font-family: sukhumvit_settext;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: sukhumvit_settext;
+}
+footer .container aside {
+    width: 25%;
+    display: inline-block;
+    float: left;
+}
+footer#colophon .copyright-area .copyright-content {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+footer#colophon .footer {
+    color: #fff;
+}
+footer#colophon .footer a {
+    color: #fff;
+}
+.textwidget iframe {
+    max-width: 100%;
+    width: 100%;
+}
+.widget-area aside {
+    width: 100%;
+}
+#sidebar .thim-ralated-course article.course-grid-1.lpr_course {
+    padding: 0;
+    margin-bottom: 15px;
+}
+.top_site_main .page-title-wrapper {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.top_site_main .page-title-wrapper h1, .top_site_main .page-title-wrapper h2 {
+    font-size: 35px;
+}
+.top_site_main {
+    min-height: auto;
+}
+.site-content {
+    padding: 25px 15px 100px;
+}
+article.lp_course h1.entry-title {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.breadcrumbs-wrapper .woocommerce-breadcrumb li, .breadcrumbs-wrapper .thim-breadcrumbs li, .breadcrumbs-wrapper #breadcrumbs li {
+    font-size: 14px;
+}
+.learn-press .course-meta label {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+.learn-press .course-payment .course-price>div {
+    display: inline;
+}
+.course-payment .fullprice {
+    font-size: 20px;
+    text-decoration: line-through;
+}
+.learn-press .course-meta {
+    margin-bottom: 25px;
+}
+.learn-press .course-payment {
+    margin-bottom: 25px;
+}
+.title-landing-cours {
+    background: #efefef none repeat scroll 0 0;
+    padding: 15px;
+}
+.title-landing-cours h3 {
+    font-size: 22px;
+    margin: 0;
+}
+.learn-press .course-tabs {
+    border: 1px solid #e5e5e5;
+    clear: both;
+}
+#tab-course-description {
+    overflow: hidden;
+    padding: 15px;
+}
+.learn-press .course-thumbnail {
+    margin-bottom: 0;
+}
+.course-price>div {
+    display: inline;
+}
+.thim-course-landing-button .fullprice {
+    font-size: 20px;
+    text-decoration: line-through;
+}
+#tab-course-description .thim-course-info ul li {
+    font-size: 15px;
+}
+.thim-course-grid .course-item .course-thumbnail:before{
+    display: none;
+}
+
+.thim-course-grid .course-item .thim-course-content .course-meta>div.course-price .value {
+    font-size: 16px;
+}
+.course-price .fullprice {
+    color: #555;
+    text-decoration: line-through;
+}
+.about_author_sidebar .course-author>div .course-author>div {
+    display: inline-block;
+}
+
+.course-author {
+    margin-bottom: 10px;
+}
+
+.author-contain a {
+    color: #000;
+}
+.author-image img {
+    border-radius: 30px;
+}
+.content-login > div {
+    display: inline-block;
+    width: 50%;
+}
+.social-login {
+    float: left;
+    padding-right: 15px;
+}
+.site_login {
+    float: right;
+    padding-left: 15px;
+}
+.facebook-login {
+    background: #3b5997 none repeat scroll 0 0;
+    height: 38px;
+    line-height: 38px;
+    margin: 0 auto;
+    text-align: center;
+}
+.facebook-login a {
+    display: block;
+    color: #fff;
+}
+
+.google-login {
+    background: #EA4335 none repeat scroll 0 0;
+    height: 38px;
+    line-height: 38px;
+    margin: 0 auto;
+    text-align: center;
+}
+.google-login a {
+    display: block;
+}
+
+.google-login {
+    display: none;
+}
+
+.row-register {
+    background: #FF7800 none repeat scroll 0 0;
+    height: 38px;
+    line-height: 38px;
+    margin: 0 auto;
+    text-align: center;
+}
+#thim-popup-login .row-register a {
+  color: #fff;
+  display: block;
+  font-weight: 600;
+}
+#thim-popup-login .row-register a:hover {
+   background: #000;
+}
+.social-login > div {
+    margin-bottom: 22px;
+}
+.google-login a:hover {
+    background: #bf3030 none repeat scroll 0 0;
+}
+.facebook-login a:hover {
+    background: #0D56A6;
+}
+#thim-popup-login .login-remember label:hover {
+    color: #FF7800 !important;
+    cursor: pointer;
+}
+#thim-popup-login .lost-pass-link:hover {
+    color: #FF7800 !important;
+    cursor: pointer;
+}
+.thim-login.login-page {
+    display: block;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.thim-login.login-page {
+    display: block;
+    margin: 0 auto;
+    max-width: 600px;
+}
+.row-register a {
+    color: #fff;
+    display: block;
+    font-weight: 600;
+}
+.row-register a:hover {
+    background: #000 none repeat scroll 0 0;
+}
+
+#login-page .login-remember label:hover {
+    color: #FF7800 !important;
+    cursor: pointer;
+}
+#login-page .lost-pass-link:hover {
+    color: #FF7800 !important;
+    cursor: pointer;
+}
+form#lostpasswordform #wp-submit {
+    position: relative;
+    top: -2px;
+}
+.newsociallogins {
+    display: none;
+}
+
+form#loginform h3 {
+    display: none;
+}
+.thim-login h3 {
+    display: none;
+}
+.profile-container .profile-tabs .nav-tabs li a {
+    font-size: 15px;
+    font-family: sukhumvit_settext;
+}
+.profile-container .profile-tabs .tab-content {
+    padding: 20px 0 0;
+}
+#your-profile ul.learn-press-subtabs li span, #your-profile ul.learn-press-subtabs li a {
+    font-size: 14px;
+}
+.userpro-centered {
+    display: none;
+}
+.about_author_sidebar .course-author>div {
+    display: inline-block;
+}
+#thim-popup-login .message {
+    display: block;
+    position: static;
+    left: 30px;
+    right: 30px;
+    float: left;
+    width: 100%;
+    text-align: left;
+    font-size: 15px!important;
+}
+
+#learn-press-course-curriculum ul.curriculum-sections .section-header {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 52px 0 6px;
+    line-height: 30px;
+    min-height: 30px;
+    position: relative;
+    border: 0;
+    padding: 5px 55px 0 40px;
+    cursor: pointer;
+}
+
+.thim-course-list .course-item .thim-course-content .course-description {
+    height: auto;
+}
+.facebook-login._checkout {
+    max-width: 218px;
+    margin-left: 0;
+}
+a#buy-coures {
+    background: #ff7800;
+    padding: 8px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.woocommerce .wc-proceed-to-checkout a.button, .woocommerce-page .wc-proceed-to-checkout a.button {
+    border-radius: 0;
+    line-height: 30px;
+    padding: 5px 25px;
+    height: 40px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+}
+.woocommerce.woocommerce-cart table.cart td.actions, .woocommerce-page.woocommerce-cart table.cart td.actions {
+    text-align: right;
+}
+form.login .form-row {
+    padding: 0;
+}
+p {
+    margin-bottom: 10px;
+}
+a {
+    color: #ff7800;
+}
+label {
+    margin-right: 10px;
+}
+.thim-course-landing-button .woocommerce-message a.button, .course-payment .woocommerce-message a.button {
+    font-size: 16px;
+}
+.message, .learn-press .message {
+    font-size: 16px;
+}
+.woocommerce-page .button:hover {
+    color: #fff !important;
+    background-color: #ff7800 !important;
+}
+.woocommerce .cart .button, .woocommerce-page .cart .button, .woocommerce .cart input.button, .woocommerce-page .cart input.button {
+    font-size: 15px;
+	font-weight: 300;
+
+}
+a#buy-coures:hover {
+    background: #e6a303 !important;
+}
+#back-to-top:hover {
+    color: #fff;
+}
+#toolbar {
+    background: #111111;
+    color: #fff;
+    font-size: 14px;
+}
+.thim-login .title {
+    font-family: sukhumvit_settext;
+}
+#thim-popup-login .thim-login-container {
+    padding: 40px 50px 40px;
+}
+input[type=submit], button {
+    font-size: 16px;
+}
+#your-profile .learn-press-subtab-content {
+    margin: -1px 0;
+}
+
+#your-profile label {
+    font-size: 13px;
+    font-family: sukhumvit_settext;
+}
+span.pending-status {
+    color: red;
+}
+span.sucess {
+    color: green;
+}
+span.strong {
+    font-weight: 700;
+}
+.sc_heading {
+    position: relative;
+    margin: 0;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 18px;
+}
+#learn-press-course-curriculum ul.curriculum-sections .section-content .course-lesson .meta-left, #learn-press-course-curriculum ul.curriculum-sections .section-content .course-quiz .meta-left {
+    min-width: auto;
+}
+.woocommerce #payment #place_order, .woocommerce-page #payment #place_order {
+    font-size: 16px;
+}
+.woocommerce form .form-row label {
+    font-size: 15px;
+}
+h2.wc-bacs-bank-details-heading {
+    font-size: 18px;
+}
+
+.woocommerce-order-received h3 {
+    font-size: 16px;
+    margin-top: 0;
+}
+
+.woocommerce-order-received h2 {
+    font-size: 18px;
+}
+
+.woocommerce .order_details li {
+    font-size: 15px;
+}
+
+.woocommerce .order_details li strong {
+    font-size: 16px;
+}
+
+.woocommerce table.shop_table tr td, .woocommerce-page table.shop_table tr td {
+    text-align: left;
+}
+#popup-sidebar .learn-press-breadcrumb .item-name {
+    display: block;
+    font-size: 20px;
+    color: #000;
+    line-height: 1.3;
+    padding-top: 9px;
+}
+#learn-press-content-item iframe {
+    max-width: 100%;
+    width: 100%;
+}
+#learn-press-content-item .learn-press-content-item-container {
+    width: 767px;
+    margin: auto;
+    overflow: hidden;
+    padding-bottom: 40px;
+    padding-top: 5px;
+    max-width: 100%;
+}
+.lesson-heading {
+    font-size: 25px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+body.content-item-only #learn-press-content-item {
+    border: none;
+    display: block;
+    background: #efefef;
+}
+#popup-sidebar .learn-press-breadcrumb a {
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 30px;
+    font-family: sukhumvit_settext;
+    display: inline-block;
+    color: #ff7800;
+}
+span.item-name {
+    font-family: sukhumvit_settext;
+    font-weight: 700;
+}
